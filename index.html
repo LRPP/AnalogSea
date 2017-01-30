@@ -18,16 +18,16 @@
 
 <body>
     <img src="logo.png" alt="AnalogSea logo">
-    <div>
+    <div class="formbox">
         <h2>Sign up</h2>
         <form action="/signup/" method='post'>
             <label for="email">Email</label><input id="email" type="text" placeholder="foo@bar.com">
             <label for="password">Password</label><input id="password" type="text" placeholder="1234passw0rd">
-            <button type='submit'>Sign up</button>
-            <a href="/forgot-password/new">Forgot password?</a>
+            <button class="center" type='submit'>Sign up</button>
         </form>
+        <a href="/forgot-password/new">Forgot password?</a>
     </div>
-    <p>Already have an account? <a href="/login">Log In</a></p>
+    <strong><p class="forgot">Already have an account? <a class="forgot" href="/login"> Log In</a></p></strong>
 
 </body>
 
